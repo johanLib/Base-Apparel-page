@@ -39,6 +39,6 @@
 }
 @media (min-width: 768px) {
     .bg-aside {
-        background-image: url('/images/hero-desktop.jpg');
+        background-image: url('../images/hero-desktop.jpg');
     }
 }
