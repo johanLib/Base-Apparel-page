@@ -29,3 +29,16 @@
     font-weight: 600;
     font-style: normal;
 }
+@media (min-width: 768px) {
+    .theme {
+        background-image: url('../images/bg-pattern-desktop.svg');
+    }
+}
+.bg-aside {
+    background-image: url('../images/hero-mobile.jpg');
+}
+@media (min-width: 768px) {
+    .bg-aside {
+        background-image: url('/images/hero-desktop.jpg');
+    }
+}

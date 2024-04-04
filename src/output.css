@@ -730,10 +730,6 @@ video {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
-.bg-hero_mobile {
-  background-image: url('../images/hero-mobile.jpg');
-}
-
 .from-\[\#f8bfbf\] {
   --tw-gradient-from: #f8bfbf var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(248 191 191 / 0) var(--tw-gradient-to-position);
@@ -959,14 +955,6 @@ video {
 
   .md\:grid-rows-custom2 {
     grid-template-rows: 84px 40px 132px 188px 38px 72px 52px 60px 158px;
-  }
-
-  .md\:bg-hero_desktop {
-    background-image: url('../images/hero-desktop.jpg');
-  }
-
-  .md\:bg-theme {
-    background-image: url('../images/bg-pattern-desktop.svg');
   }
 
   .md\:bg-center {
