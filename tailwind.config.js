@@ -14,9 +14,9 @@ module.exports = {
         custom3: '30px 25px 30px 340px 65px 129px 35px 80px 45px 50px 82px'
       },
       backgroundImage: {
-        theme: "url('/images/bg-pattern-desktop.svg')",
-        hero_desktop: "url('/images/hero-desktop.jpg')",
-        hero_mobile: "url('/images/hero-mobile.jpg')"
+        theme: "url('../images/bg-pattern-desktop.svg')",
+        hero_desktop: "url('../images/hero-desktop.jpg')",
+        hero_mobile: "url('../images/hero-mobile.jpg')"
       },
       colors: {
         Desaturated_Red: "#ce9797",
