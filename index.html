@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="author" content="Anass Seghir">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Tailwindcss, SEO, frontend, Frontend Mentor">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="description" content="this is a solution for base Apparel coming soon in frontend mentor">
+  <link rel="icon" type="image/svg" sizes="32x32" href="/images/favicon-32x32.svg">
+  <link rel="stylesheet" href="/src/output.css">
+  <link rel="stylesheet" href="/src/style.css">
+  <title>Base Apparel coming soon page</title>
+  <link rel="manifest" href="/manifest.json">
+  <script src="/index.js" defer></script>
+</head>
+<body class="flex justify-center items-center w-full h-full text-base text-center josefin-400 bg-gradient-to-tr from-color1 from-0% via-color2 via-50% to-color3 to-100% bg-no-repeat">
+  <main class="flex justify-center items-center w-full h-full md:bg-theme bg-center bg-left bg-cover bg-no-repeat">
+    <div class="grid lg:grid-cols-custom1 lg:grid-rows-custom1 md:grid-cols-custom2 md:grid-rows-custom2 grid-cols-custom3 grid-rows-custom3 w-full max-w-[1440px] h-full max-h-[800px]">
+
+      <header class="col-start-2 row-start-2 col-end-3 row-end-3">
+        <figure>
+          <img class="w-[100px] md:w-auto" src="/images/logo.svg" alt="Base Apparel Logo">
+        </figure>
+      </header>
+
+      <aside class="md:bg-hero_desktop bg-hero_mobile bg-cover bg-no-repeat bg-[center_top_1rem] md:bg-center row-start-4 col-[1/-1] md:row-[1/-1] md:col-start-4">
+      </aside>
+      
+      <section class="row-start-6 col-start-2 md:row-start-4 md:col-start-2 w-full text-center px-12 md:text-left md:px-0 md: md:w-[350px] uppercase text-[2.3rem] md:text-[4rem] josefin-600 leading-[2.9rem] md:leading-[4.2rem] tracking-[1rem] md:tracking-[1.1rem]">
+        <h1>
+          <span class="josefin-200 tracking-[1rem] text-Desaturated_Red">We're</span> coming soon
+        </h1>
+      </section>
+
+      <div class="row-start-8 col-start-2 md:row-start-6 md:col-start-2 w-[440px] justify-self-center md:justify-self-left ml-[1px] josefin-400 leading-[1.75rem] tracking-[0.028rem] text-[#ce9797]  transition-all duration-300 ease-in-out">
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+      </div>
+
+      <form id="form1" action="#" class="row-start-10 col-start-2 md:row-start-8 md:col-start-2 w-[445px] justify-self-center md:justify-self-left relative">
+        <label for="input_email">
+          <input type="email" id="input_email" class="w-[445px] h-[56px] pl-7 pr-2.5 josefin-400 bg-transparent rounded-[56px] border border-solid border-[#ce979780] px-6 py-3 placeholder:text-[#ce979780] focus:outline-[#ee8c8c]" name="input_email" placeholder="Email Address">
+        </label>
+        <button class="w-[100px] h-[56px] pl-[2px] pt-[3px] absolute right-0 top-0 border-none rounded-[56px] shadow-custom bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] cursor-pointer hover:bg-[#fad6d6]">
+          <img src="/images/icon-arrow.svg" alt="arrow icon" id="icon_arrow" class="absolute left-[47px] bottom-[18px]">
+          <img src="/images/icon-error.svg" alt="error icon" id="icon_error" class="hidden absolute right-[117px] top-[17px]">
+        </button>
+        <span id="error_msg" class="error_msg | text-[0.81rem] text-[#ee8c8c] josefin-400 mr-[16rem]"></span>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
