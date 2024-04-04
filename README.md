@@ -39,7 +39,7 @@
 
 </div>
 
-This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/Base-Apparel-coming-soon-page-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/Base-Apparel-coming-soon-page-koxpeBUmI). Created Using Tailwindcss with a full Responsive Design using Grid Layout.
 
 <h2 align="center">Links</h2>
 
